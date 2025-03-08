@@ -16,12 +16,16 @@ Multimodal Large Language Models (MLLMs) have demonstrated impressive capabiliti
 ## Contents 
 
 - [Dataset](#dataset)
+- [Ckpts](#ckpts)
 - [BPO Training](#bpo-training)
 - [Infer](#infer)
 
 ## Dataset
 
 We present the **MMSafe-PO** Dataset, featuring multimodal instructions, the conversational format, and ranked paired responses from human feedback. The dataset can be downloaded from `datasets` folder.
+
+## Ckpts
+We put all our checkpoints into [MMSafe_checkpoints](https://huggingface.co/Downton/MMSafe_checkpoints).
 
 ## BPO Training
 
