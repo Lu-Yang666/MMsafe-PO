@@ -3,7 +3,7 @@
 # MMSafe-PO
 **Towards Harmless Multimodal Assistants with Preference Optimization**
 
-<a href='https://huggingface.co/datasets/Downton/MMSafe-PO'><img src='https://img.shields.io/badge/Huggingface-Page-Yellow'></a>
+<a href='https://huggingface.co/datasets/Downton/MMSafe-PO'><img src='https://img.shields.io/badge/Huggingface-Dataset-FFCC33'></a>
 <a href='https://lu-yang666.github.io/MMsafe-PO-Web/'><img src='https://img.shields.io/badge/Project-Page-Green'></a>
 </div>
 
