@@ -5,6 +5,7 @@
 
 <a href='https://huggingface.co/datasets/Downton/MMSafe-PO'><img src='https://img.shields.io/badge/Huggingface-Dataset-FFCC33'></a>
 <a href='https://lu-yang666.github.io/MMsafe-PO-Web/'><img src='https://img.shields.io/badge/Project-Page-Green'></a>
+<a href='https://arxiv.org/abs/2503.14189'><img src='https://img.shields.io/badge/Paper-Arxiv-Orange'></a>
 </div>
 
 
@@ -21,6 +22,7 @@ Multimodal Large Language Models (MLLMs) have demonstrated impressive capabiliti
 - [Ckpts](#ckpts)
 - [BPO Training](#bpo-training)
 - [Infer](#infer)
+- [Citation](#citation)
 
 ## Dataset
 
@@ -85,3 +87,16 @@ You can run the following script.
 bash ./scripts/infer_json.sh
 ```
 
+## Citation
+If you find this dataset/model/paper helpful, please cite the following: 
+```
+@misc{li2025harmlessmultimodalassistantsblind,
+      title={Towards Harmless Multimodal Assistants with Blind Preference Optimization}, 
+      author={Yongqi Li and Lu Yang and Jian Wang and Runyang You and Wenjie Li and Liqiang Nie},
+      year={2025},
+      eprint={2503.14189},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2503.14189}, 
+}
+```
