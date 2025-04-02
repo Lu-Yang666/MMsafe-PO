@@ -87,16 +87,3 @@ You can run the following script.
 bash ./scripts/infer_json.sh
 ```
 
-## Citation
-If you find this dataset/model/paper helpful, please cite the following: 
-```
-@misc{li2025harmlessmultimodalassistantsblind,
-      title={Towards Harmless Multimodal Assistants with Blind Preference Optimization}, 
-      author={Yongqi Li and Lu Yang and Jian Wang and Runyang You and Wenjie Li and Liqiang Nie},
-      year={2025},
-      eprint={2503.14189},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2503.14189}, 
-}
-```
