@@ -2,6 +2,10 @@
 
 # MMSafe-PO
 **Towards Harmless Multimodal Assistants with Preference Optimization**
+
+<a href='https://huggingface.co/datasets/Downton/MMSafe-PO'><img src='https://img.shields.io/badge/Huggingface-Dataset-FFCC33'></a>
+<a href='https://lu-yang666.github.io/MMsafe-PO-Web/'><img src='https://img.shields.io/badge/Project-Page-Green'></a>
+<a href='https://arxiv.org/abs/2503.14189'><img src='https://img.shields.io/badge/Paper-Arxiv-FFA500'></a>
 </div>
 
 
@@ -15,12 +19,17 @@ Multimodal Large Language Models (MLLMs) have demonstrated impressive capabiliti
 ## Contents 
 
 - [Dataset](#dataset)
+- [Ckpts](#ckpts)
 - [BPO Training](#bpo-training)
 - [Infer](#infer)
+- [Citation](#citation)
 
 ## Dataset
 
 We present the **MMSafe-PO** Dataset, featuring multimodal instructions, the conversational format, and ranked paired responses from human feedback. The dataset can be downloaded from `datasets` folder.
+
+## Ckpts
+We put all our checkpoints into [MMSafe_checkpoints](https://huggingface.co/Downton/MMSafe_checkpoints).
 
 ## BPO Training
 
@@ -47,7 +56,7 @@ git clone THIS_GIT
 ```
 2. Download llava-v1.5 checkpoint
 
-Before RLHF training, you should download LLaVA-v1.5-7b checkpoint; LLaVA-v1.5-13b checkpoint.
+Before RLHF training, you should download LLaVA-v1.5-7b checkpoint from [Hugging Face](https://huggingface.co/liuhaotian/llava-v1.5-7b); LLaVA-v1.5-13b checkpoint from(https://huggingface.co/liuhaotian/llava-v1.5-13b).
 
 3. Prepare the dataset
 ```
@@ -78,3 +87,16 @@ You can run the following script.
 bash ./scripts/infer_json.sh
 ```
 
+## Citation
+If you find this dataset/model/paper helpful, please cite the following: 
+```
+@misc{li2025harmlessmultimodalassistantsblind,
+      title={Towards Harmless Multimodal Assistants with Blind Preference Optimization}, 
+      author={Yongqi Li and Lu Yang and Jian Wang and Runyang You and Wenjie Li and Liqiang Nie},
+      year={2025},
+      eprint={2503.14189},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2503.14189}, 
+}
+```
